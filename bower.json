@@ -17,5 +17,6 @@
     "bootstrap": "~3.3.5",
     "angular": "~1.4.3",
     "angular-resource": "~1.4.3"
-  }
+  },
+  "homepage": "https://github.com/duskyshelf/angularintro"
 }
