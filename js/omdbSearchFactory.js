@@ -1,5 +1,5 @@
-githubUserSearch.factory('Search', ['$http', function($http) {
-  var queryUrl = "https://api.github.com/search/users";
+githubUserSearch.factory('OmdbSearch', ['$http', function($http) {
+  var queryUrl = "http://www.omdbapi.com/";
   return {
     query: function(searchTerm) {
 
@@ -7,7 +7,7 @@ githubUserSearch.factory('Search', ['$http', function($http) {
         url: queryUrl,
         method: 'GET',
         params: {
-          'q': searchTerm
+          's': searchTerm
         }
       });
 
